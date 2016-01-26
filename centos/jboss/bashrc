@@ -1,0 +1,17 @@
+# .bashrc
+
+# User specific aliases and functions
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
+export JAVA_HOME=/opt/java/current
+export ANT_HOME=/opt/ant/current/
+export PATH=$JAVA_HOME/bin:$ANT_HOME/bin:$PATH
+

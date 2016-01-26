@@ -1,9 +1,9 @@
 # Docker image for liferay
 
-The image is build in docker registry : https://registry.hub.docker.com/u/seb0uil/lf-centos-jboss/
+The image is build in docker registry : https://registry.hub.docker.com/u/seb0uil/liferay-centos-jboss/
 you can pull it :
 ```
-docker pull seb0uil/lf-centos-jboss
+docker pull seb0uil/liferay-centos-jboss
 ```
 
 ## Start me up
